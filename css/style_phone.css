@@ -1,0 +1,201 @@
+/*CSS movil*/
+@media screen and (max-width: 480px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .ancho{
+        max-width: 360px;
+        margin: auto;
+    }
+    header {
+        background-color: #fff8e7;
+    }
+    .linea{
+        border: 5px #FF6C87 solid;
+    }
+    body{
+        font-family: Helvetiva;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333;
+        background-color: aliceblue;
+    }
+    .menu1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .navegador {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .redes_social {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-flow: row nowrap;
+        gap: 25px;
+    }
+    .slide {
+        background-image: url(../img/slide1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .info_slide {
+        text-align: center;
+        max-width: 360px;
+    }
+    .info_slide h2 {
+        color: white;
+        font-size: x-large;
+        font-family: sans-serif;
+        padding: 20px 0px 20px 0px;
+    }
+    .info_slide p {
+        color: white;
+        max-width: 500px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 20px 0px 20px 0px;
+    }
+    .contenedor_boton {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        padding: 20px 0px 20px 0px;
+    }
+    .contenedor_boton a{
+        border: 3px rgb(243, 50, 82) solid;
+        padding: 18px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(243, 50, 82);
+        font-weight: 500;
+        border-radius: 10px;
+    }
+    .contenido1{
+        display: flex;
+        flex-flow: column-reverse wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+    .parte1{
+        max-width: 300px;
+    }
+    .parte1 h3 {
+        border: 1px blue solid;
+        font-size: large;
+        text-align: center;
+        font-weight: bold;
+        padding: 30px 0px 30px 0px;
+    }
+    .parte1 p {
+        border: 1px red solid;
+        padding: 30px 0px 30px 0px;
+        text-align:start;
+        font-weight: 500;
+        font-size: large;
+    }
+    .parte2{
+        max-width: 750px;
+        border: 5px blue solid;
+    }
+    .parte2 img {
+        width: 100%;
+    }
+    h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+    }
+    .contenedor_talento{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+    .contenido{
+        max-width: 400px;
+    }
+    .contenido img{
+        width: 100%;
+        border-radius: 12px;
+    }
+    .puestos{
+        max-width: 780px;
+    }
+    .puestos h3{
+        padding: 10px 0px 2px 0px;
+        font-weight: bold;
+    }
+    .puestos p {
+        padding: 5px 0px 10px 0px;
+    }
+    .contenedor_servicios{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .servicios {
+        max-width: 300px;
+        background-color: #e6d690;
+        border-radius: 10px;
+        height: 550px;
+    }
+    .servicios figure{
+        padding: 20px 0px 20px 0px;
+    }
+    .servicios img {
+        width: 60%;
+        border: 7px white solid;
+        border-radius: 50%;
+    }
+    .servicios h3{
+        padding: 15px 0px 15px 0px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .servicios p {
+        max-width: 300px;
+        padding: 5px 15px 30px 15px;
+        text-align: justify;
+    }
+    .servicios a{
+        border-radius: 10px;
+        color: white;
+        border: 1px #FF6C87 solid;
+        background-color: #FF6C87;
+        padding: 15px 20px 15px 20px;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    .fin{
+        max-width: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        align-content: center;
+    }
+    .fin img {
+        width: 100%;
+    }
+    
+    .sitio_web{
+        color: rgb(243, 50, 82);
+        font-weight: bolder;
+    }
+}
